@@ -8,6 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+   <h1>Hello, JSX «Ü­«­n³á</h1>  ,
   document.getElementById('root')
 );
 
