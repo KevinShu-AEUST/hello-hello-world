@@ -4,11 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const helloFun = ()=>{
+  return <button>真的很重要！！！！</button>
+}
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-   <h1>Hello, JSX �ܭ��n��</h1>  ,
+  <div>
+    <h1 style = {{color:"red"}}>好想睡喔</h1>
+    <button>我要睡了</button>
+    {helloFun()}  
+  </div>,
+
   document.getElementById('root')
 );
 
