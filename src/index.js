@@ -7,14 +7,17 @@ import reportWebVitals from './reportWebVitals';
 const helloFun = ()=>{
   return <button>真的很重要！！！！</button>
 }
+const showAlert = ()=>{
+  alert("show");
+}
 
 ReactDOM.render(
   <div>
     <h1 style = {{color:"red"}}>好想睡喔</h1>
-    <button>我要睡了</button>
+    <button onClick={showAlert}> 我要睡了</button>
     {helloFun()}  
   </div>,
-
+   
   document.getElementById('root')
 );
 
